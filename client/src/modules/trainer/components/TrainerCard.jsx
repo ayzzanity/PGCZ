@@ -45,31 +45,42 @@ const TrainerCard = () => {
           className="text-white bg-silph-black border-transparent w-720px"
           cover={
             <div className="bg-center overflow-hidden h-28">
-              <Image preview={false} alt="example" src="https://wayfarer.nianticlabs.com/imgpub/home/hero_video.jpg" />
+              <Image
+                preview={false}
+                alt="example"
+                src="https://g.foolcdn.com/image/?url=https%3A%2F%2Fg.foolcdn.com%2Feditorial%2Fimages%2F598665%2Fpokemon-go.jpg"
+              />
             </div>
           }
         >
           <Avatar
             size={96}
             icon={<UserOutlined />}
-            src="https://assets.thesilphroad.com/img/user-avatars/juniorscout_m_2.png"
+            src="https://i.imgur.com/RJdTl2Z.png"
             className="-mt-32 border-4 rounded-full border-sky-500 bg-orange-200"
           />
-
-          <div className="-mt-5">
-            <Text className="font-bold text-amber-300 text-sm uppercase">Junior Scout</Text>
+          <div className="flex -mt-11">
+            <div className="w-1/2 text-left">
+              <Text className="font-bold text-white text-xxs uppercase -ml-4">Pokemon GO Club Zamboanga</Text>
+            </div>
+            <div className="w-1/2 text-right">
+              <Text className="font-bold text-white text-xxs uppercase -mr-4">4234 6895 4035</Text>
+            </div>
+          </div>
+          <div className="mt-5">
+            <Text className="font-bold text-amber-300 text-sm uppercase">Lazy Wayfarer</Text>
           </div>
           <div>
             <Text className="font-bold text-white text-3xl uppercase">AyzEyesIce</Text>
           </div>
           <div>
-            <Text className="text-stone-400 text-xs uppercase">Zamboanga City</Text>
+            <Text className="text-stone-400 text-xs uppercase">Team Mystic</Text>
           </div>
           <div>
             <Text className="font-bold text-white text-xs uppercase">Level: </Text>
             <Text className="text-stone-400 text-base uppercase">44 </Text>
             <Text className="font-bold text-white text-xs uppercase">XP: </Text>
-            <Text className="text-stone-400 text-base uppercase">38,937,608</Text>
+            <Text className="text-stone-400 text-base uppercase">99,999,999</Text>
           </div>
           <div className="text-left">
             <Text className="font-bold text-white text-sm uppercase">Favorite </Text>
@@ -89,7 +100,7 @@ const TrainerCard = () => {
             <Card
               type="inner"
               className="w-24 bg-silph-black text-white border-transparent rounded-none h-3/4"
-              cover={<img alt="example" src="https://assets.thesilphroad.com/img/pokemon/icons/96x96/334.png" />}
+              cover={<img alt="example" src="https://assets.thesilphroad.com/img/pokemon/icons/96x96/448.png" />}
             ></Card>
             <Card
               type="inner"
@@ -99,7 +110,7 @@ const TrainerCard = () => {
             <Card
               type="inner"
               className="w-24 bg-silph-black text-white border-transparent rounded-none h-3/4"
-              cover={<img alt="example" src="https://assets.thesilphroad.com/img/pokemon/icons/96x96/249.png" />}
+              cover={<img alt="example" src="https://assets.thesilphroad.com/img/pokemon/icons/96x96/197.png" />}
             ></Card>
             <Card
               type="inner"
@@ -146,121 +157,170 @@ const TrainerCard = () => {
           </div>
           <div class="flex">
             <div class="w-1/3 m-0.5">
-              <Card className="bg-silph-gray text-white border-transparent rounded-none">
-                <Image width={25} preview={false} src="https://assets.thesilphroad.com/img/icons/mind_map_filled.png" />
+              <div className="bg-silph-gray text-white border-transparent rounded-none">
+                <Image
+                  className="mt-2"
+                  width={25}
+                  preview={false}
+                  src="https://assets.thesilphroad.com/img/icons/mind_map_filled.png"
+                />
                 <div>
                   <Text className="font-bold text-white text-xs uppercase">TRAVELERS MET:</Text>
                 </div>
                 <div>
-                  <Text className="font-bold text-orange-500 text-lg uppercase">10</Text>
+                  <Text className="font-bold text-orange-500 text-lg uppercase">999</Text>
                 </div>
-              </Card>
+              </div>
             </div>
             <div class="w-1/3 m-0.5">
-              <Card className="bg-silph-gray text-white border-transparent rounded-none">
+              <div className="bg-silph-gray text-white border-transparent rounded-none">
                 <Image
+                  className="invert mt-2"
                   width={25}
                   preview={false}
-                  className="invert"
                   src="https://assets.thesilphroad.com/img/icons/Place.png"
                 />
                 <div>
                   <Text className="font-bold text-white text-xs uppercase">MEETUP CHECK-INS:</Text>
                 </div>
                 <div>
-                  <Text className="font-bold text-orange-500 text-lg uppercase">4</Text>
+                  <Text className="font-bold text-orange-500 text-lg uppercase">999</Text>
                 </div>
-              </Card>
+              </div>
             </div>
             <div class="w-1/3 m-0.5">
-              <Card className="bg-silph-gray text-white border-transparent rounded-none">
-                <Image width={25} preview={false} src="https://assets.thesilphroad.com/img/icons/binoculars.png" />
+              <div className="bg-silph-gray text-white border-transparent rounded-none">
+                <Image
+                  className="mt-2"
+                  width={25}
+                  preview={false}
+                  src="https://assets.thesilphroad.com/img/icons/binoculars.png"
+                />
                 <div>
                   <Text className="font-bold text-white text-xs uppercase">MIGRATIONS REPORTED:</Text>
                 </div>
                 <div>
-                  <Text className="font-bold text-orange-500 text-lg uppercase">4</Text>
+                  <Text className="font-bold text-orange-500 text-lg uppercase">999</Text>
                 </div>
-              </Card>
+              </div>
             </div>
           </div>
 
-          <Card type="inner" className="bg-silph-gray text-white border-transparent rounded-none m-0.5">
+          <div className="bg-silph-gray text-white border-transparent rounded-none m-0.5">
             <div className="flex">
-              <div class="w-1/2 -my-3">
+              <div class="w-1/2">
                 <Text className="font-bold text-white text-xxs uppercase">JOINED:17 JUL, 2019</Text>
               </div>
-              <div class="w-1/2 -my-3">
+              <div class="w-1/2">
                 <Text className="font-bold text-white text-xxs uppercase">LAST UPDATED:16 APR, 2023</Text>
               </div>
             </div>
-          </Card>
+          </div>
 
-          <div className="flex text-left">
+          <div className="flex text-left mt-4">
             <Text className="font-bold text-white text-2xl">Challenges</Text>
           </div>
           <div class="flex">
             <div class="w-1/5 ">
-              <Avatar
-                size={72}
+              <Image
+                width={72}
                 src="https://assets.thesilphroad.com/img/badges/flex-challenge-i.png"
-                className="grayscale"
-                shape="square"
+                // className="grayscale"
+                preview={false}
               />
             </div>
 
             <div class="w-1/5 ">
-              <Avatar
-                size={72}
+              <Image
+                width={72}
                 src="https://assets.thesilphroad.com/img/badges/golden-ghost-gym-challenge.png"
-                className="grayscale"
-                shape="square"
+                className="grayscale mt-12"
+                preview={false}
               />
             </div>
 
             <div class="w-1/5 ">
-              <Avatar
-                size={72}
+              <Image
+                width={72}
                 src="https://assets.thesilphroad.com/img/badges/goliath-i.png"
                 className="grayscale"
-                shape="square"
+                preview={false}
               />
             </div>
 
             <div class="w-1/5 ">
-              <Avatar
-                size={72}
+              <Image
+                width={72}
                 src="https://assets.thesilphroad.com/img/badges/hatch-to-hero.png"
                 // className="grayscale"
-                shape="square"
+                className="mt-12"
+                preview={false}
               />
             </div>
 
             <div class="w-1/5 ">
-              <Avatar
-                size={72}
+              <Image
+                width={72}
                 src="https://assets.thesilphroad.com/img/badges/venomoth-exeggutor-solo.png"
                 className="grayscale"
-                shape="square"
+                preview={false}
               />
             </div>
           </div>
-          <Divider className="border-blue-400" />
+          <Divider className="border-blue-400 border-2" />
           <div className="flex h-24">
-            <div className="w-2/3">
+            <div className="w-2/3 flex justify-center items-center">
               <Text className="font-bold text-white text-xs uppercase">FAVORITE</Text>
               <br />
               <Text className="text-white text-xs uppercase">MEETUPS</Text>
             </div>
-            <div className="w-1/3">BADGE HERE</div>
+            <div className="w-1/3">
+              <Space className="-ml-11">
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/202304.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/201907.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/201908.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/201909.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+              </Space>
+              <Space className="-mt-3">
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+              </Space>
+            </div>
           </div>
           <div className="flex h-24 bg-silph-gray">
-            <div className="w-2/3">
+            <div className="w-2/3 flex justify-center items-center">
               <Text className="font-bold text-white text-xs uppercase">FAVORITE</Text>
               <br />
               <Text className="text-white text-xs uppercase">AWARDS</Text>
             </div>
-            <div className="w-1/3">BADGE HERE</div>
+            <div className="w-1/3 mt-2">
+              <Space className="-ml-11">
+                <Image
+                  width={36}
+                  src="https://assets.thesilphroad.com/img/badges/gg-s2-out-of-stardust-i.png"
+                  preview={false}
+                />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/low-on-stardust.png" preview={false} />
+                <Image
+                  width={36}
+                  src="https://assets.thesilphroad.com/img/badges/one-migration-report.png"
+                  preview={false}
+                />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/traveler-card.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+              </Space>
+              <Space className="-mt-3">
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+                <Image width={36} src="https://assets.thesilphroad.com/img/badges/holder.png" preview={false} />
+              </Space>
+            </div>
           </div>
           <div className="flex">
             <div className="mr-2 mt-2">
@@ -277,7 +337,8 @@ const TrainerCard = () => {
               </div>
               <div className="text-left -mb-2">
                 <Text className="font-bold text-white text-xxs uppercase">
-                  Casual, Working on Completing The Pokédex, Shiny Hunting, and Catching Raid Bosses.
+                  Casual, Working on Completing The Pokédex, Shiny Hunting, and Catching Raid Bosses. Typically Raids 1x/week
+                  and Battles 5x/week.
                 </Text>
               </div>
             </div>
